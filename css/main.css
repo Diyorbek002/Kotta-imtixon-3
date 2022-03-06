@@ -497,8 +497,19 @@ img {
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: #fff;
+}
+
+.header__item:hover {
+  color: #fff;
+}
+
+.header__link:hover {
+  color: #fff;
+}
+
 .header__item + .header__item {
-  margin-left: 10px;
   margin-left: 30px;
 }
 
@@ -520,6 +531,10 @@ img {
   color: #FFFFFF;
   opacity: 0.6;
   text-decoration: none;
+}
+
+.header__lange:hover {
+  color: #fff;
 }
 
 .header__lange + .header__lange {
@@ -553,6 +568,7 @@ img {
     display: flex;
   }
   .header__list {
+    width: 400px;
     position: absolute;
     display: none;
     -webkit-box-orient: vertical;
@@ -561,10 +577,23 @@ img {
             flex-direction: column;
     margin: 0;
     z-index: 2;
-    top: 66px;
-    right: 0;
-    background-color: #a82a2a;
-    opacity: 0.6;
+    top: 150px;
+    right: -250px;
+    border-radius: 25px;
+    background-color: #462d18;
+    opacity: 0.5;
+  }
+  .header__item:hover {
+    background-color: blue;
+    color: #fff;
+    border-radius: 25px;
+  }
+  .header__item + .header__item {
+    margin: 0;
+  }
+  .header__item {
+    margin: 0;
+    padding: 20px;
   }
   .header__link {
     width: 600px;
